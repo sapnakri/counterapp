@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  border: none;
+  outline: none;
+}
+body {
+    background-color: rgba(1, 7, 7, 0.926);
+  }
+  .container {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .counter {
+    background-color: rgb(57, 102, 161);
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(198, 206, 206, 0.2) 0px 7px 29px 0px ;
+  }
+  .counter P {
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 200;
+    line-height: 0.99;
+  }
+  .container .buttons {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .container .buttons button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  .container .buttons button#sub {
+    background-color: rgb(232, 123, 177);
+    color: rgb(2, 10, 13); 
+    border-radius: 0.5rem;
+  }
+  .container .buttons button#add {
+    background-color: rgb(131, 177, 223);
+    color: rgb(9, 7, 1); 
+    border-radius: 0.5rem;
+  }
+  .container .buttons button#reset{
+    background-color: rgb(138, 193, 131);
+    color: rgb(12, 12, 12); 
+    border-radius: 0.5rem;
+  }
